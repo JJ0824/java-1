@@ -53,7 +53,7 @@ public class Java20240304 {
         // 무한루프 탈출
         for(int i = 0; ; i++){
             if (i < 10) {
-                break;
+                 break;
             }
             System.out.println(i + "");
         }
