@@ -41,7 +41,7 @@ public class Java20240304 {
 
         //for 문의 특수한 형태(무한 루프)
         /*
-        for(int i = 0; i i++) {
+        for(int i = 0; ; i++) {
         System.out.println(i + " ");
         }
         for(ii) {
@@ -53,7 +53,7 @@ public class Java20240304 {
         // 무한루프 탈출
         for(int i = 0; ; i++){
             if (i < 10) {
-                 break;
+                break;
             }
             System.out.println(i + "");
         }
