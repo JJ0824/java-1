@@ -69,7 +69,7 @@ public class Java20240229 {
             }
         }
         // Switch case
-        int number = 4;
+        int number = 3;
         switch (number) {
 
             case 1:
