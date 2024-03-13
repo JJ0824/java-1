@@ -1,3 +1,5 @@
+import Java_Package.Students;
+
 public class Java0308study {
     public static void main(String[] args) {
         Students tom = new Students("Tom", 18, "Daejeon", "123456");

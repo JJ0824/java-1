@@ -1,3 +1,5 @@
+package Java_Package;
+
 public class Students {
     private String name;
     private int age;
@@ -12,6 +14,12 @@ public class Students {
         this.age = age;
         this.address = address;
         this.personalNum = personalNum;
+    }
+    public Students(String name, int age, String address) {
+        this.name = name;
+        this.age = age;
+        this.address = address;
+
     }
 
     public String getName() {
