@@ -1,6 +1,10 @@
+package JavaExample0313;
+
 import java.util.Arrays;
 
 public class Java0312 {
+
+    // 코드 읽기
     public static void main(String[] args) {
         int [] arr = new int [] {1, 2, 8, 3, 2, 2, 2, 5, 1};
         int [] fr = new int [arr.length];

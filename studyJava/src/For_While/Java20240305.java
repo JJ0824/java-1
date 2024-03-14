@@ -1,3 +1,5 @@
+package For_While;
+
 public class Java20240305 {
     public static void main(String[] args) {
         // break = 중괄호를 탈출시키는 키워드

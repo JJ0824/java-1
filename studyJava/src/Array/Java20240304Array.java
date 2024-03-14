@@ -1,3 +1,5 @@
+package Array;
+
 public class Java20240304Array {
 
     public static void main(String[] args) {

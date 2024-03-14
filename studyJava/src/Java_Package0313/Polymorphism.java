@@ -1,4 +1,4 @@
-package Java_Package;
+package Java_Package0313;
 
 
     // 상속 관계 만들기

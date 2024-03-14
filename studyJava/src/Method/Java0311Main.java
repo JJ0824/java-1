@@ -1,4 +1,6 @@
-import Java_Package.Students;
+package Method;
+
+import Java_Package0313.Students;
 
 public class Java0311Main {
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-import Java_Package.Students;
+package Method;
+
+import Java_Package0313.Students;
 
 public class Java0308 {
     public static void main(String[] args) {
@@ -18,7 +20,7 @@ public class Java0308 {
 
         System.out.println(tom.getPersonalNum());
 
-        // 메소드 호출
+        // 메서드 호출
         int[] numberList = {12, 34, 56, 32, 84, 99, 73, 69};
         int[] numberList2 = {123,345,235,7898,467};
         getSumAvg(numberList);
