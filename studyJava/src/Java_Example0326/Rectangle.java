@@ -11,12 +11,14 @@ public class Rectangle implements Shape {
         this.length = length;
         this.width = width;
     }
+
     @Override
     public double calculateArea() {
-        return length * width;
+        return 0;
     }
+
     @Override
     public double calculatePerimeter() {
-        return 2 * (length + width);
+        return 0;
     }
 }
