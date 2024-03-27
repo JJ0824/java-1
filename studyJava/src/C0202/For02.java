@@ -30,7 +30,23 @@ public class For02 {
 
 
         //1부터 5까지 숫자를 더하고(배열 사용) (FOR문 사용)
-        //그 결과 같이 15와 같다면 true 다르다면 flase를 출력하는 코드를 만드시오 (if문 사용)
+        //그 결과 값이 15와 같다면 true 다르다면 flase를 출력하는 코드를 만드시오 (if문 사용)
+
+        int[] arr = {1,2,3,4,5};
+
+        int sum = 0;
+
+        for (int i = 0; i<arr.length; i++) {
+
+            if(sum==15) {
+                System.out.println("true");
+            }
+            else {
+                System.out.println("false");
+            }
+            sum += arr[i];
+
+        }System.out.println(sum);
 
 
     }
