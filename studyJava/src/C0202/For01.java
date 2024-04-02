@@ -1,8 +1,6 @@
 package C0202;
 
-import Java0328.Main;
-
-public class Fro01 {
+public class For01 {
     public static void main(String[] args) {
 
         System.out.println(5 < 2); // false

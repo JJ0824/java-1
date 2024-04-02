@@ -22,6 +22,18 @@ public class Q2 {
         double temp = sc.nextDouble();
         double result;
 
+        if (input==1){
+            result = 5*(temp - 32) / 9;
+            System.out.println("화씨 "+temp+"도는 섭씨 "+Math.round(result*10)/10.0+"도");
+        }
+        else if (input==2) {
+            result = ((9 * temp) / 5) + 32;
+            System.out.println("섭씨 "+temp+"도는 화씨 "+Math.round(result)+"도");
+        }
+        else{
+            System.out.println("입력하신 값이 잘못되었습니다. 프로그램을 종료합니다.");
+        }
+
 
     }
 }
