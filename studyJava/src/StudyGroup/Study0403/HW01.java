@@ -14,7 +14,7 @@ public class HW01 {
         int mathematics = 40;    // 수학점수는 40점
         int english = 60;        // 영어점수는 60점
 
-        sum = sum + language + mathematics + english;   // 국어,수학,영어 합한 값을 sum에 대입
+        sum = language + mathematics + english;   // 국어,수학,영어 합한 값을 sum에 대입
 
         float average = sum / 3;   // 정수형 변수를 만들고 국어,수학,영어 합한 sum과 3을 나눠 평균값을 구합
                                  // 평균구하는 공식은 [총점/갯수] (총점과 과목3개)
