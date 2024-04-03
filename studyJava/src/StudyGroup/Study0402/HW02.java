@@ -8,7 +8,6 @@ public class HW02 {
 
         int[] Array = {10,20,30,40,50};
 
-        if()
 
     }
 }
