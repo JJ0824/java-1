@@ -9,31 +9,16 @@ package StudyGroup.Study0403;
 public class HW02 {
     public static void main(String[] args) {
 
-        int[] ArrayBirthDay = {1,2,3,4,5,6,7,8,9,10,};
+        int[] ArrayBirthDay = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10,};
 
+        for (int i = 0; i < ArrayBirthDay.length; i++) {
+            ArrayBirthDay[i] = i + 1;
+            System.out.print(ArrayBirthDay[i] + ", ");
+        }
 
-        ArrayBirthDay [0] =1;
-        ArrayBirthDay [1] =2;
-        ArrayBirthDay [2] =3;
-        ArrayBirthDay [3] =4;
-        ArrayBirthDay [4] =5;
-        ArrayBirthDay [5] =6;
-        ArrayBirthDay [6] =7;
-        ArrayBirthDay [7] =8;
-        ArrayBirthDay [8] =9;
-        ArrayBirthDay [9] =10;
-
-
-        System.out.println(ArrayBirthDay[0]);
-        System.out.println(ArrayBirthDay[1]);
-        System.out.println(ArrayBirthDay[2]);
-        System.out.println(ArrayBirthDay[3]);
-        System.out.println(ArrayBirthDay[4]);
-        System.out.println(ArrayBirthDay[5]);
-        System.out.println(ArrayBirthDay[6]);
-        System.out.println(ArrayBirthDay[7]);
-        System.out.println(ArrayBirthDay[8]);
-        System.out.println(ArrayBirthDay[9]);
-
+        for (int j = 0;j<ArrayBirthDay.length;j++){
+            ArrayBirthDay[j] =(j+1)*10;
+            System.out.print(ArrayBirthDay[j]+", ");
+        }
     }
 }
