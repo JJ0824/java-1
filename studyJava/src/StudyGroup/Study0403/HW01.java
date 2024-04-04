@@ -6,6 +6,7 @@ package StudyGroup.Study0403;
 //(본인 이름) 학생의 평균은 (연산하시오.)이다.
 
 public class HW01 {
+
     public static void main(String[] args) {
 
         int sum = 0;            // sum 값을 저장
