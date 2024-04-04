@@ -2,10 +2,7 @@ package StudyGroup.Study0401;
 
 import java.util.Scanner;
 
-<<<<<<< HEAD
-=======
-// HEAD
->>>>>>> 6e78efb099e138dc8e050f000793300fbdf552b8
+
 /*
 사용자에게 1~10까지의 수 중 하나를 입력받는다. ///////////////////
 (조건1. 입력받은 값이 1~10의 범위를 넘어간 경우 Error 출력)
