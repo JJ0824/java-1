@@ -3,6 +3,9 @@ package StudyGroup.Study0401;
 import java.util.Scanner;
 
 <<<<<<< HEAD
+=======
+// HEAD
+>>>>>>> 6e78efb099e138dc8e050f000793300fbdf552b8
 /*
 사용자에게 1~10까지의 수 중 하나를 입력받는다. ///////////////////
 (조건1. 입력받은 값이 1~10의 범위를 넘어간 경우 Error 출력)
@@ -27,27 +30,9 @@ public class TimeAttack02 {
         System.out.println("1~10까지의 숫자중 하나를 입력하시오");
         int userInput = scanner.nextInt();              // 사용자에게 임의의 값을 입력받는 코드
 
-        if (userInput>= 1 && userInput <= 10){
+        if (userInput >= 1 && userInput <= 10) {
             System.out.println();
 
         }
-
-
-
-
-
-
-
     }
-=======
-public class TimeAttack02 {
-    /*
-1~100까지의 숫자를 입력받는다
-(조건1. 입력받은 값이 1~100의 범위를 넘어간 경우 Error 출력)
-사용자가 입력한 숫자를 찾는 코드를 작성하고
-그 숫자와 시도 횟수를 출력하시오.
- */
-
-
->>>>>>> c7957200b5270a394cf66a07f96a0c1438c8ec67
 }

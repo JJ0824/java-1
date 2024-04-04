@@ -8,7 +8,9 @@ public class HW02 {
 
         int[] Array = {10,20,30,40,50};
 
-        if()
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e78efb099e138dc8e050f000793300fbdf552b8
     }
 }
