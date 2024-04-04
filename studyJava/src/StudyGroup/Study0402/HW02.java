@@ -6,11 +6,7 @@ package StudyGroup.Study0402;
 public class HW02 {
     public static void main(String[] args) {
 
-        int[] Array = {10,20,30,40,50};
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 6e78efb099e138dc8e050f000793300fbdf552b8
+        int[] Array = {10, 20, 30, 40, 50};
     }
 }
+
