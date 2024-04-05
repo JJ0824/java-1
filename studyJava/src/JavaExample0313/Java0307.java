@@ -70,7 +70,7 @@ public class Java0307 {
 //        System.out.println(randNum);
 
         //9. 1~45까지의 랜덤한 정수를 length가 6인 배열에 넣으시오.
-        // 단, 중ㅂ복 숫자는 허용하지 않음!!
+        // 단, 중복 숫자는 허용하지 않음!!
 
         Random randClass = new Random();
         int[] rottoList = new int[6];

@@ -1,7 +1,5 @@
 package Java0325;
 
-import JavaExample0313.Java0325;
-
 
 public class Students {
  String Name;
