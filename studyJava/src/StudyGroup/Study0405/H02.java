@@ -17,13 +17,17 @@ public class H02 {
 
         System.out.println("숫자를 입력하세요 : ");
         Scanner scanner = new Scanner(System.in);
-                int num = scanner.nextInt();
+                int num1 = scanner.nextInt();
+
+
         System.out.println("동일한 숫자 : ");
+        Scanner sc = new Scanner(System.in);
+        int num2 = scanner.nextInt(5);
 
-                for (int i=0; i>arrayCheck.length; i++) {
 
-                }
-        System.out.println("중복된 횟수 : "+ num);
+
+
+
 
 
 

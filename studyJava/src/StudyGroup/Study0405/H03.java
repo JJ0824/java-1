@@ -9,15 +9,26 @@ public class H03 {
     public static void main(String[] args) {
         int[] array = new int[]{80,45,29,78,64,98,57};
 
-        int sum=0;
-        float average = 0;
-
+        float sum=0f;
+        int numMax = array[0];
+        int numMin = array[0];
 
         for (int i=0; i<array.length; i++) {
             sum = sum + array[i];
-            average = sum / array[i];
         }
-        System.out.println();
+        System.out.println("학생의 평균 점수 : " + sum / array.length);
 
+        for (int i=0; i<array.length; i++) {
+            if (array[i] > numMax) {
+                numMax = array[i];
+                System.out.println("학생의 최고 점수 : " + numMax);
+            }
+        }
+        for (int i=0; i<array.length; i++) {
+            if (array[i] < numMin) {
+                numMin = array[i];
+
+            }
+        }System.out.println("학생들의 죄저 점수 : " + numMin);
     }
 }

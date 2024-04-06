@@ -15,9 +15,6 @@ public class H01 {
         for (int i=0; i<arraySort.length; i++) {
             System.out.println(arraySort[i]);
         }
-
-
-
     }
 }
 
