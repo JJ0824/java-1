@@ -34,7 +34,9 @@ public class HW01 {
         }
 
         /* 3) x = 120, y = 60, z = 30 이다. z를 a로 나눈 몫이 x를 y로 나눈 몫보다 크면 "A팀 승"를 작으면 "Y팀 승",
-           같으면 "동점" 을 출력하는 코드를 작성하시오 */
+           같으면 "동점" 을 출력하는 코드를 작성하시오
+           if (z / a > x / y)
+           */
         int x = 120, y =60, z = 30;
         int div1;
         int div2;
@@ -45,11 +47,8 @@ public class HW01 {
             System.out.println("A팀 승");
         } else if (div1<div2) {
             System.out.println("Y팀 승");
-        } else if (div1==div2) {
+        } else{
             System.out.println("동점");
-        }
-        else {
-
         }
     }
 }
