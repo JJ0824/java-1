@@ -5,8 +5,6 @@
 */
 use testdb; -- use 명령어는 database를 선택한다는 뜻 (한번만 선언)
 
-
-
 select * from 고객; -- 고객테이블의 모든 데이터 요청 
 
 select 고객번호, 담당자명, 고객회사명, 마일리지	
