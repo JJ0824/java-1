@@ -37,10 +37,10 @@ public class Java20240304 {
         }
         System.out.println();
 
-        for (int i = 0, j = 0; i < 10; i++, j++) {
-            System.out.print(i + j + "");
+        for (int i = 0, j = 0; i < 10; i++, j++) { // 반복이 한 번 실행될 때마다 i와 j를 1씩 증가
+            System.out.print(i + j + ""); // i와 j를 더한 값을 출력 + ""는 숫자를 문자열로 변환하기 위한 것
         }
-        System.out.println();
+        System.out.println();  // 각각의 값은 i와 j가 동일한 증가율을 가지므로, 0부터 9까지의 숫자가 각각 더해져 출력
 
         //for 문의 특수한 형태(무한 루프)
 

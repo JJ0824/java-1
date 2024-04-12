@@ -8,7 +8,7 @@ public class Java20240305 {
         // if = 만약에
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
-            if (i  >5) {
+            if (i  >5) {   // 만약 i가 5보다 크면, break문을 통해 반복문을 종료
                 break;
             }
         }
