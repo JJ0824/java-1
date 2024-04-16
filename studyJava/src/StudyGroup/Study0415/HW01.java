@@ -6,8 +6,10 @@ import java.util.Scanner;
  */
 public class HW01 {
     public static void main(String[] args) {
+
         System.out.println("사용자가 입력한 숫자 : ");
         Scanner scanner = new Scanner(System.in);
+
         int userNum = scanner.nextInt();
 
         for (int i = 0; i < 10 ; i++) {
