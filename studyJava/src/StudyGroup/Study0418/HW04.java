@@ -23,6 +23,7 @@ public class HW04 {
 
         for (int i=0; i<num.length; i++) {
             if (i % 2 == 1) {
+                num[i] = i;
 
             }
         }

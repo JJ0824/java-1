@@ -4,7 +4,7 @@ package StudyGroup.Study0418;
 public class HW05 {
     public static void main(String[] args) {
 
-        // 내일 다시할게 
+        // 내일 다시할게
 
     }
 }
