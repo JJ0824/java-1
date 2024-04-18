@@ -16,6 +16,6 @@ public class HW03 {
             }System.out.println(array[i]);
         }
 
-        // 내일 다시할게
+        // 내일 풀기
     }
 }
