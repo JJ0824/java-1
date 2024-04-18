@@ -1,4 +1,7 @@
 package StudyGroup.Study0418;
+
+import java.util.Arrays;
+
 /*
 {88,45,22,12,71,41,34,57,41} 값을 저장하고 있는 배열이 있다.
 다음을 나타내시오.
@@ -22,7 +25,7 @@ public class HW04 {
 
 
         for (int i=0; i<num.length; i++) {
-            if (i % 2 == 1) {
+            if (i / 2 == 1) {
                 num[i] = i;
 
             }
