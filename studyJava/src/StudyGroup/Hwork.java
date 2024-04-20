@@ -1,7 +1,5 @@
 package StudyGroup;
-
-public class Hwork {
-    /*
+/*
 사용자에게 1~10까지의 수 중 하나를 입력받는다.
 (조건1. 입력받은 값이 1~10의 범위를 넘어간 경우 Error 출력)
 사용자가 입력한 값을 userInput으로 받은 뒤
@@ -15,4 +13,9 @@ public class Hwork {
 100과 같을 경우 "결과값은 100과 동일합니다."
 작을 경우 "결과값은 100보다 작은 수 입니다." 를 출력하시오.
 */
+public class Hwork {
+    public static void main(String[] args) {
+
+    }
+
 }
