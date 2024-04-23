@@ -23,7 +23,8 @@ public class EX01 {
 
         System.out.println("1부터 20까지의 숫자중 5개를 입력하세요: ");  // 사용자에게 출력되는 코드
         Scanner sc = new Scanner(System.in);   // 유저에게 입력받는 코드
-        // 내가 값을 입력받을 코드
+
+
         for (int i = 0; i < b.length; i++) {
             int num = sc.nextInt();
             b[i] = num;
@@ -31,7 +32,7 @@ public class EX01 {
                 count++;
             }
             System.out.println(Arrays.toString(b));
-            System.out.println("같은 값의 반복 되는 수 : " + count);
-        }
+
+        }System.out.println("같은 값의 반복 되는 수 : " + count);
     }
 }
