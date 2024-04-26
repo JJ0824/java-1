@@ -23,12 +23,13 @@ public class HW05 {
             c[i] = i+201;
         }
 
-        if (num >=1 && num >= 100) {
-            for (int i = 0; i < a.length; i++) {
-                if (a[i] == num) {
-                    System.out.println("a 배열의 " + a[i] + "번째에 저장되어 있습니다");
-                }
-            }
+        System.out.println(c);
+
+//        if (num >=1 && num >= 100) {
+//            for (int i = 0; i < a.length; i++) {
+//                if (a[i] == num) {
+//                    System.out.println("a 배열의 " + a[i] + "번째에 저장되어 있습니다");
+//                }
+//            }
         }
     }
-}

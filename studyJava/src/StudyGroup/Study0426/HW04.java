@@ -26,7 +26,7 @@ import java.util.Scanner;
 public class HW04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("나이를 8~19살 까지 입력 하세요: ");
+        System.out.println("나이를 8~20살 까지 입력 하세요: ");
         String string = sc.nextLine();
 
         switch (string) {
@@ -65,6 +65,9 @@ public class HW04 {
                 break;
             case ("19살"):
                 System.out.println("고등학생: 3학년");
+                break;
+            case  ("20살"):
+                System.out.println("성인");
                 break;
 
         }

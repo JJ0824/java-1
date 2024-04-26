@@ -18,5 +18,6 @@ public class HW03 {
         System.out.println("8" + " * " + "9" + " = " + (8 * 9));
 
 
+
     }
 }
