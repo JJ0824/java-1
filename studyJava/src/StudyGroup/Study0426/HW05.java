@@ -10,37 +10,37 @@ import java.util.Scanner;
 public class HW05 {
     public static void main(String[] args) {
         int[] a = new int[100];
-        int[] b = new int[200];
-        int[] c = new int[300];
+        int[] b = new int[100];
+        int[] c = new int[100];
 
         Scanner sc = new Scanner(System.in);
         System.out.println("값을 입력하세요: ");
         int num = sc.nextInt();
 
-        for (int i=0; i<a.length; i++) {
-            a[i] = i+1;
-            b[i] = i+101;
-            c[i] = i+201;
+        for (int i = 0; i < a.length; i++) {
+            a[i] = i + 1;
+            b[i] = i + 101;
+            c[i] = i + 201;
         }
 
-        if (num > 1 && num <= 100) {
-            for (int i = 0; i < a.length; i++) {
-                if (a[i] == num) {
-                    System.out.println("a 배열의 " + a[i]);
+            if (num > 0 && num <= 100) {
+                for (int i = 0; i < a.length; i++) {
+                    if (a[i] == num) {
+                        System.out.println("a 배열의 " + i);
+                    }
                 }
-            }
-        } else if (num > 101 && num <= 200) {
-            for (int i=0; i<b.length; i++) {
-                if (b[i] == num) {
-                    System.out.println("b 배열의" + b[i]);
+            } else if (num > 100 && num <= 200) {
+                for (int i = 0; i < b.length; i++) {
+                    if (b[i] == num) {
+                        System.out.println("b 배열의" + i);
+                    }
                 }
-            }
-        } else if (num > 201 && num <= 300) {
-            for (int i=0; i<c.length; i++) {
-                if (c[i] == num) {
-                    System.out.println("c 배열의" + c[i]);
+            } else if (num > 200 && num <= 300) {
+                for (int i = 0; i < c.length; i++) {
+                    if (c[i] == num) {
+                        System.out.println("c 배열의" + i);
+                    }
                 }
             }
         }
     }
-}
