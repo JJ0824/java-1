@@ -9,21 +9,5 @@ public class Example05 {
 
 
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("가로 길이를 입력하세요: ");
-        int width = scanner.nextInt();
-
-        Scanner scanner1 = new Scanner(System.in);
-        System.out.print("세로 길이를 입력하세요: ");
-        int height = scanner1.nextInt();
-
-        for (int i = 0; i < height; i++) {
-            for (int j = 0; j < width; j++) {
-
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
-
     }
 }

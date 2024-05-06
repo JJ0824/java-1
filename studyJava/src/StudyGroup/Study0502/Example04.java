@@ -29,9 +29,8 @@ public class Example04 {
         System.out.println("1~100 까지의 숫자중 원하는 숫자를 입력하세요: ");
         int count = 0;
 
-        for (int i = 0; i < randomNumber; i++) {
+        for (int i = 0; ; i++) {
             int scNum = scanner.nextInt(); // for문 밖에 써주면 게임이 다시 시작될때 변수가 초기화 되지않아서 이전 입력값을 유지하게됨
-
             count++;
 
             if (scNum < randomNumber) {
@@ -43,6 +42,8 @@ public class Example04 {
                 System.out.println("맞춘 숫자: " + randomNumber);
                 System.out.println("축하드립니다! 숫자가 일치합니다");
                 System.out.println("시도한 횟수: " + count);
+
+                break;
             }
 
         }
