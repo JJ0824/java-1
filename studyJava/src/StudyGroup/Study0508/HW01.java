@@ -66,6 +66,7 @@ public class HW01 {
             for (int j = 0; j < numsix.length; j++) {
                 if (num[i] == numsix[i]) {     // num[i] 당첨번호 와 numsix[i] 사용자가 입력한 값과 같으면 +1씩 증가 숫자를 셈
                     count++;
+                    break;
                 }
             }
             if (num[i] == numsix[i]) { // num[i] 당첨번호 와 numsix[i] 사용자가 입력한 값과 같다면 1등
