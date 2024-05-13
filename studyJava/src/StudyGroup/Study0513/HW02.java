@@ -15,8 +15,8 @@ public class HW02 {
 
         String string ="123451231";
 
-        Scanner sc = new Scanner(System.in);
 
+        Scanner sc = new Scanner(System.in);
         System.out.println("문자열을 입력해주세요");
         String text1 = sc.nextLine();
 
