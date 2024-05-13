@@ -24,30 +24,55 @@ public class HW01 {
         12.int number = 0; 은 값을 차례대로 더했을때 최대값 이상으로 값이 커지는 인덱스를 출력하기 위한 변수를 선언
         13.number = i; 를 if문 안에 씀으로 인해 최대값 이상으로 커진 i번째 인덱스를 number 에 저장
         14.break; 를 써주지 않으면 array의 배열길이 끝까지 순환함 결국 값이 11번째 인덱스가 나오게됨
-
          */
 
         int[] array = new int[]{54,87,14,25,97,5,41,4,627,85,41,365};
-        Arrays.sort(array);
-        int sum1 = 0;
-        int sum2 = 0;
-        sum2 = array[0] + array[1] + array[2] + array[3] + array[4] + array[5] + array[6] + array[7] + array[8] + array[9]
-                + array[10] + array[11];
-        int number= 0;
 
 
-        for (int i = 0; i < array.length; i++) {
-            sum1 = sum1 + array[i];
-            if (sum1 > array[11]) {
-                number = i;
-                break;   // 처음 break를 걸지 않았을때 값이 다르게 나옴 array 배열 11번째 까지 나오게됨
-                         // break를 써주지 않으면 array의 배열길이 끝까지 순환함 결국 값이 11번째 인덱스가 나오게됨
-            }
-        }
 
-        System.out.println("배열 안의 최소값: " +array[0]);
-        System.out.println("배열 안의 최대값: " + array[11]);
-        System.out.println("배열 안의 수 들을 모두 더한값: " + sum2);
-        System.out.println("최대값 이상으로 값이 커지는 인덱스: " + number);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//        int[] array = new int[]{54,87,14,25,97,5,41,4,627,85,41,365};
+//        Arrays.sort(array);
+//        int sum1 = 0;
+//        int sum2 = 0;
+//        sum2 = array[0] + array[1] + array[2] + array[3] + array[4] + array[5] + array[6] + array[7] + array[8] + array[9]
+//                + array[10] + array[11];
+//        int number= 0;
+//
+//
+//        for (int i = 0; i < array.length; i++) {
+//            sum1 = sum1 + array[i];
+//            if (sum1 > array[11]) {
+//                number = i;
+//                break;   // 처음 break를 걸지 않았을때 값이 다르게 나옴 array 배열 11번째 까지 나오게됨
+//                         // break를 써주지 않으면 array의 배열길이 끝까지 순환함 결국 값이 11번째 인덱스가 나오게됨
+//            }
+//        }
+//
+//        System.out.println("배열 안의 최소값: " +array[0]);
+//        System.out.println("배열 안의 최대값: " + array[11]);
+//        System.out.println("배열 안의 수 들을 모두 더한값: " + sum2);
+//        System.out.println("최대값 이상으로 값이 커지는 인덱스: " + number);
     }
 }

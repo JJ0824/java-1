@@ -45,7 +45,6 @@ public class HW01 {
         int[] num = new int[6]; // 1번. 6개의 당첨번호를 저장 할 6개의 크기의 새로운 배열
 
         Random rd1 = new Random();
-        int randNum1 = rd1.nextInt(46) + 1;  //1-2번. 1부터 45까지(46미만)의 난수 생성
 
         System.out.println("로또 추첨을 시작하겠습니다 1~45까지의 숫자를 입력해주세요");
         Scanner sc = new Scanner(System.in); //2번. 유저에게 값을 입력받기위한 메세지 출력
@@ -54,8 +53,9 @@ public class HW01 {
 
         int count = 0; // 번호 개수 카운트
 
+        System.out.println(Arrays.toString(numsix));
         for (int i = 0; i < num.length; i++) {       // 6개의 난수를 저장 하는 반복문을 만든다 (당첨번호)
-            num[i] = rd1.nextInt(45) + 1;
+            num[i] = rd1.nextInt(45) + 1;   //1-2번. 1부터 45까지(46미만)의 난수 생성
         }
 
         for (int i = 0; i < numsix.length; i++) {
@@ -79,5 +79,6 @@ public class HW01 {
                 System.out.println("꽝입니다 다음기회에..");
             }
         }
+
     }
 }
