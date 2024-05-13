@@ -17,7 +17,7 @@ public class HW01 {
         double avg = 0;
         for (int i=0; i< name.length; i++) {
             sum += name[i];
-            avg = sum / 3;
+            avg = sum / 5;
         }
         System.out.println("총점: " + sum);
         System.out.println("평균: " + avg);
