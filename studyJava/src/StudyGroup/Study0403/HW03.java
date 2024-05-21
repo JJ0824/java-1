@@ -1,7 +1,7 @@
 package StudyGroup.Study0403;
 
 
-<<<<<<< Updated upstream
+
 //st1, st2,st3 3명의 학생 의 성적을 입력받아 배열에 저장한다.
 //그 학생들의 평균성적을 구한 뒤 구한 평균 성적을 바탕으로 학생들의 성적을 분류하여 출력한다.
 // 결과값 예시 => 학생명 : st1, 점수 : 100점, 평균 이상(혹은 이하)
@@ -19,38 +19,7 @@ import java.util.Scanner;
 public class HW03 {
     public static void main(String[] args) {
 
-
-        int[] Student = new int[0];
-
-        System.out.println("학생들의 성적 : ");
-        Scanner scanner = new Scanner(System.in);
-        int num = scanner.nextInt();
-
-        for(int i=0; i<Student.length; i++) {
-            System.out.println(i);
-        }
-
-
-
-
-
-
-
-
-
-
-
-
     }
-=======
-//st1, st2,st3 3명의 학생의 성적을 입력받아 배열에 저장한다.
-//그 학생들의 평균성적을 구한 뒤 구한 평균 성적을 바탕으로 학생들의 성적을 분류하여 출력한다.
-// 결과값 예시 => 학생명 : st1, 점수 : 100점, 평균 이상(혹은 이하)
-//*이하는 기준점을 포함한 그보다 아랫수자를 의미함*
-public class HW03 {
-    public static void main(String[] args) {
-
-    }
-
->>>>>>> Stashed changes
 }
+
+
