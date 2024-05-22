@@ -4,39 +4,28 @@ import Java0326.A;
 import StudyGroup.Study0402.Array;
 
 import java.util.Arrays;
+
 import java.util.Scanner;
 
-class Name {
-    public String[] strings(String[] studentName) {
-
-        Scanner scanner = new Scanner(System.in);
-
-        for (int i = 0; i < studentName.length; i++) {
-            studentName[i] = scanner.nextLine();
-        }
-        return studentName;
-    }
-}
 public class HW01 {
 
-    //DW 고등학교 1학년 신입생 이름 저장 프로그램
-    //조건 : 외부클래스 사용 / 입력매게변수 사용
-    //각 A,B,C반이 있으며 각 반의 학생은 5명으로 규정한다.
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+   /*
+    DW 고등학교 1학년 신입생 이름 저장 프로그램
+    조건 : 외부클래스 사용 / 입력매게변수 사용
+    각 A,B,C반이 있으며 각 반의 학생은 5명으로 규정한다.
 
-        String[] A = new String[5];
-        String[] B = new String[5];
-        String[] C = new String[5];
+    1. 각 반의 학생 수는 5명이므로 5개의 크기가 저장되는 배열을 생성한다.
+    2. 5명의 학생 이름을 저장 하기위해 for문을 통해 5번 반복하며 for문안에 변수를 만들어 변수의[i]번째 주소에 5명의 학생 이름을 저장한다.
+    3.
+    */
+
+    public static void main(String[] args) {
+
+        String[] a = new String[5];
 
         Name name = new Name();
-        String[] string = name.strings(A);
-        String[] string1 = name.strings(B);
-        String[] string2 = name.strings(C);
+        name.strings(a);
 
 
-        System.out.println(Arrays.toString(A));
-        System.out.println(Arrays.toString(B));
-        System.out.println(Arrays.toString(C));
     }
 }

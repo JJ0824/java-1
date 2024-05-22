@@ -9,16 +9,28 @@ public class Main {
         //1. 두 수를 더하는 메서드를 만드시오.
         //2. 두 수를 빼는 메서드를 만드시오.
         //3. 1과 2를 더하는 메서드를 만드시오.
+
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
         //1. 두 수를 더하는 메서드를 만드시오.
         Number num = new Number();
         int a = num.plusNum(num1,num2);
-        System.out.println(a);
         //2. 두 수를 빼는 메서드를 만드시오.
-
+        int b = num.subNum(num1 , num2);
         //3. 1과 2를 더하는 메서드를 만드시오.
-        
+        int c = num.sumNum(a , b);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
