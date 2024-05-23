@@ -9,7 +9,7 @@ public class HW02 {
     //입력매게변수 사용
     public static void main(String[] args) {
 
-        int[] array = new int[100];
+        int[] array = new int[1];
 
         Scanner scanner = new Scanner(System.in);
 
@@ -20,12 +20,11 @@ public class HW02 {
                 System.out.println("1의 자리 숫자입니다.");
             } else if (array[i] <= 99) {
                 System.out.println("10의 자리 숫자입니다.");
-            } else if (array[i] == 100) {
+            } else if (array[i] <= 999) {
                 System.out.println("100의 자리 숫자입니다.");
-            }else {
-
+            } else {
+                System.out.println("범위를 벗어났습니다.");
             }
-            break;
         }
 
     }

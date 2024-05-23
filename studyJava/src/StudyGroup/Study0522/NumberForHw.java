@@ -21,7 +21,7 @@ class NumberForHw {
     }
     public int divisionNum(int div1 , int div2){
 
-        int divinum = div1 % div2;
+        int divinum = div1 / div2;
         return divinum;
     }
 }
