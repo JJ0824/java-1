@@ -14,8 +14,6 @@ public class HW01 {
         int myMoney = 1000; // 내 통장 잔고
         int youMoney = 5000; // 송금
 
-
-
         // 내 통장 잔고
         Money money = new Money();
         int bankmoney = money.myMoney(myMoney);
@@ -25,10 +23,10 @@ public class HW01 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("출금 하고 싶은 금액을 입력하세요."); // 확인을 위한 출력 코드
         int minusnum = scanner.nextInt();
+
         // 출금
         int bankminus = money.moneyMinus(minusnum);
         System.out.println("출금 후 남은 금액: " + bankminus + "원"); // 확인을 위한 출력 코드
-
 
         // 사용자가 입력한 입금 액수
         System.out.println("입금 할 액수를 입력하세요.");
