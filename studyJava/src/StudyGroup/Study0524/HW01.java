@@ -5,15 +5,7 @@ public class HW01 {
         //문제 2. 생성한 필드를 호출하여 각 필드에 Alex,26,대전을 입력하시오.
 
 
-        Students students = new Students();
-        String string = students.humanName();
-        System.out.println(string);
 
-        int age = students.humanAge();
-        System.out.println(age);
-
-        String city = students.city();
-        System.out.println(city);
 
 
 
