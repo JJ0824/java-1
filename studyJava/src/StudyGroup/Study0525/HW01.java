@@ -16,7 +16,7 @@ public class HW01 {
         int bmax = Integer.MIN_VALUE;
         int bmin = Integer.MAX_VALUE;
 
-
+        // 내일 외부 클래스로 해보기! ㅎㅎ 
 
         Scanner scanner = new Scanner(System.in);
 
@@ -57,7 +57,5 @@ public class HW01 {
         }else {
             System.out.println("false");
         }
-
-
     }
 }
