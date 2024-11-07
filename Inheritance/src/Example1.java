@@ -68,6 +68,11 @@ class Student {
         }
         return sum / this.scores.length;
     }
+
+    @Override
+    public String toString() {
+        return "아이디:" + studentId + " 이름:" + name + " " + grade + "학년";
+    }
 }
 
 public class Example1 {
@@ -94,5 +99,8 @@ public class Example1 {
         System.out.println(Arrays.toString(s2.getScores()));
         // 평균
         System.out.println(s2.calAverage()); //  71.666..7
+
+        // toString
+        System.out.println(s2.toString());
     }
 }
