@@ -9,9 +9,19 @@ public class Example3 {
         a2.addTracks("AAA");
         a2.addTracks("BBB");
         a2.addTracks("CCC");
+
         List<String> temp = a2.getTracks();
         System.out.println(temp.size()); // List의 length는 size()로 확인
+        //System.out.println(a2.getTracks().size()); // 위 두줄의 간단버전(동일함)
+
         System.out.println(temp); // List는 바로 출력 가능
+        //System.out.println(a2.getTracks()); // 위 코드와 동일함
+
+        a2.removeTracks("BBB");
+        System.out.println(a2.getTracks().size());
+        System.out.println(a2.getTracks());
+
+        a2.removeTracks("FFF");
     }
 }
 // 배열대신 컬렉션중에 하나인 ArrayList를 사용하는 예제
@@ -73,5 +83,7 @@ class Album2 {
             // 해당 곡이 존재하지 않으면 그대로 false 리턴
             System.out.println("곡을 찾을 수 없습니다: " + track);
         }
+        // void이지만 boolean으로 바꾸면 더 간략하다
+//        return tracks.remove(track);
     }
 }
